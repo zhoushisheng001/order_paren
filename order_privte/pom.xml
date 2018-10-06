@@ -42,8 +42,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.zhuguan.zhou</groupId>
-            <artifactId>product_client</artifactId>
+            <groupId>com.zhuguan.com</groupId>
+            <artifactId>order_api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
