@@ -54,10 +54,11 @@ public class OrderController implements OrderApi {
     }
 
     /**
-     *
-       这里面是服务降级，但是对应的降级服务要和上面的
-       fallbackMethod = "getOrderDtoInfoListInfo"
-      的方法名称和入参数一样
+     * 这里面是服务降级，但是对应的降级服务要和上面的
+     * fallbackMethod = "getOrderDtoInfoListInfo"
+     * 的方法名称和入参数一样
+      * @param orderDto
+     * @return
      */
    public ResponseData<List<OrderDto>> getOrderDtoInfoListInfo(@RequestBody OrderDto orderDto){
         List<OrderDto> orderDtoInfoList = new ArrayList<>();

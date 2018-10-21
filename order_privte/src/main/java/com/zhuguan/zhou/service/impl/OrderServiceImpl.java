@@ -22,7 +22,7 @@ public class OrderServiceImpl implements OrderService {
     private RestTemplate restTemplate;
 
     @Autowired
-    private ProductClient productClient;
+    private ProductClient productClient;//默认如果设置了熔断了的话时间为1S 目前环境已经配置成3S可以看配置文件
 
     @Override
     public OrderDto getgetOrderDtoInfoById(String id)  {

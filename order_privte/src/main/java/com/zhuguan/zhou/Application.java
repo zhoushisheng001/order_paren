@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-@EnableCircuitBreaker//服务降级
+@EnableCircuitBreaker//服务降级开注解服务熔断不需要
 public class Application {
 
     public static void main(String[] args) {
